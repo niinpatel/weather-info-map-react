@@ -34,7 +34,7 @@ export default compose(
         <InfoWindow onCloseClick={props.onToggleOpen}>
           <div>
             {props.weatherData && (
-              <div style={{ background: "red" }}>
+              <div>
                 <p>Location: {props.weatherData.location}</p>
                 <p>
                   Temperature: {props.weatherData.temp}

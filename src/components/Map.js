@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MapWithAMakredInfoWindow from "./GoogleMapExample";
+import MapWithAMakredInfoWindow from "./MapWithAMakredInfoWindow";
 import Axios from "axios";
 const weatherApiKey = process.env.REACT_APP_WEATHER_API_KEY;
 const mapsApiKey = process.env.REACT_APP_MAPS_API_KEY;
@@ -45,7 +45,7 @@ class Map extends Component {
 
   updateWeatherData = () => {
     const { lat, lng } = this.state.marker;
-    const apiCallURL = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=metric&APPID=${weatherApiKey}`;
+    const apiCallURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=metric&APPID=${weatherApiKey}`;
     const apiCall = Axios.get(apiCallURL);
     apiCall.then(res => {
       this.setState({
