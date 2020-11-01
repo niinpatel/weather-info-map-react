@@ -1,12 +1,10 @@
-# These are supported funding model platforms
-
-github: # niinpatel
-patreon: # Replace with a single Patreon username
-open_collective: # Replace with a single Open Collective username
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
-liberapay: # Replace with a single Liberapay username
-issuehunt: # Replace with a single IssueHunt username
-otechie: # Replace with a single Otechie username
-custom: https://paypal.me/PayNitin
+github: null
+patreon: null
+open_collective: null
+ko_fi: null
+tidelift: null
+community_bridge: null
+liberapay: null
+issuehunt: null
+otechie: null
+custom: 'https://paypal.me/PayNitin'
